@@ -35,7 +35,7 @@ for i in range(Total_problems):
        
 
 end_time=time.time()
-time_spent= end_time - start_time
+time_spent= round(end_time - start_time, 2)
 print('Time spent :', time_spent, 'seconds!')
 print('You got', correct_answers, 'questions correctly!')
 print('You got', wrong_answers, 'questions wrong!')
